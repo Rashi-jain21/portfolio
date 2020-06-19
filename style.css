@@ -278,7 +278,9 @@ h1 {
   margin-inline-end: unset;
   margin-block-start: unset;
 }
-
+header {
+  z-index: 999;
+}
 @media (min-width: 992px) {
   main {
     display: flex;
